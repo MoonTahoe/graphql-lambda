@@ -9,7 +9,8 @@ First, you need to install dependencies locally and make sure the graphqlHandler
 1. Install the dependencies: `yarn` -or- `npm install`
 2. Install the serverless framework: `yarn add 
 3. Install the Serverless Framework: `yarn global add serverless` -or- `npm install -g serverless`
-4. Your output should contain a successful `200` response
+4. Test the lambda locally: `yarn test:query` -or- `npm run test:query`
+5. Your output should contain a successful `200` response
 
 ```json
 {
