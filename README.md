@@ -36,5 +36,5 @@ You can deploy the lambda function to your own AWS Account. You will need to set
 4. Install the Serverless Framework: `yarn global add serverless` -or- `npm install -g serverless`
 5. Run the deploy command: `yarn deploy` or `npm deploy`
 
-Once you've completed a successful deployment you can see your Lambda Functions running at the [aws console](https://console.aws.amazon.com/lambda/home?region=us-east-1#/functions).
+Once you've completed a successful deployment you can see your Lambda Functions running at the [aws console](https://us-west-1.console.aws.amazon.com/lambda/home?region=us-west-1#/functions).
 

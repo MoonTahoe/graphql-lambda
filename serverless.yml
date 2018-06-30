@@ -3,14 +3,18 @@ plugins:
   - serverless-webpack
   - serverless-offline
 custom:
+  stage: ${opt:stage, self:provider.stage}
   webpack:
     webpackConfig: ./webpack.config.js
     includeModules: true
+  environment: ${file(env.yml):${self:custom.stage}, file(env.yml):default}  
 provider:
   name: aws
   runtime: nodejs8.10
   stage: dev
   region: us-west-1
+  environment:
+    APP_NAME: ${self:custom.environment.APP_NAME}  
 functions:
   graphqlHandler:
     handler: handler.graphqlHandler
