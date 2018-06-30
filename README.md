@@ -27,6 +27,11 @@ First, you need to install dependencies locally and make sure the graphqlHandler
 }
 ```
 
+Deployed Endpoints
+-----------
+* __Staging__: [https://6n69v07012.execute-api.us-west-1.amazonaws.com/staging/graphql](https://6n69v07012.execute-api.us-west-1.amazonaws.com/staging/graphql)
+* __Production__: [https://ymst9nocol.execute-api.us-west-1.amazonaws.com/production/graphql](https://ymst9nocol.execute-api.us-west-1.amazonaws.com/production/graphql)
+
 Deployment
 ----------
 You can deploy the lambda function to your own AWS Account. You will need to set-up a few things in your local development environment to make it happen.
