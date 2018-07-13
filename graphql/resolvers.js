@@ -1,5 +1,1 @@
-export default {
-    Query: {
-        hello: () => 'world!!!'
-    }
-}
+export default { }

@@ -1,6 +1,6 @@
 {
     "httpMethod": "POST",  
     "body": {
-        "query":"{hello}"
+        "query":"{ allNews { title } }"
     }
 }
